@@ -3,7 +3,7 @@
 A medium-tier inventory analytics dashboard built with **Streamlit**, **Pandas**, and **SQLite** — designed for early-stage startups and lean ops teams to monitor stock levels, reorder needs, inventory value, and overall supply chain health.
 
 ### Live Demo
-[Click to view the live app on Streamlit](https://supplychaindash.streamlit.app)
+[Click to view the live app on Streamlit](https://audreykchan-supplychaindash-supply-dashboard-kqcw4m.streamlit.app/)
 
 ---
 
