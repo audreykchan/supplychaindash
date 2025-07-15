@@ -7,7 +7,7 @@ A medium-tier inventory analytics dashboard built with **Streamlit**, **Pandas**
 
 ---
 
-## 🔍 Features
+##  Features
 
 -  **Filterable Inventory Table** – search by product name and filter by category
 -  **Reorder Alerts** – automatically flags low-stock items
