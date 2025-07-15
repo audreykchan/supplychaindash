@@ -1,0 +1,20 @@
+TAB-001|10-inch POS Tablet|Core Device|299.0|12|8
+CR-001|EMV Card Reader|Core Device|89.0|25|15
+CR-002|Contactless Payment Terminal|Core Device|149.0|18|12
+CR-003|Mobile Card Reader|Core Device|69.0|30|20
+PRT-001|Thermal Receipt Printer|Core Device|199.0|15|10
+PRT-002|Kitchen Display Screen|Core Device|299.0|5|3
+CD-001|Smart Cash Drawer|Core Device|179.0|10|6
+STD-001|Tablet Counter Stand|Accessory|79.0|22|12
+STD-002|Tablet Wall Mount|Accessory|49.0|35|20
+CASE-001|Rugged Tablet Case|Accessory|39.0|45|25
+CASE-002|Weather-Resistant Case|Accessory|59.0|18|10
+CBL-001|USB-C Charging Cable|Accessory|19.0|85|50
+CBL-002|Ethernet Cable (10ft)|Accessory|12.0|120|75
+CBL-003|Power Cable Kit|Accessory|29.0|40|25
+BAR-001|Wireless Barcode Scanner|Accessory|89.0|12|8
+BAR-002|Handheld Scanner Gun|Accessory|119.0|9|6
+PPR-001|Thermal Receipt Paper (50 rolls)|Consumable|45.0|75|30
+PPR-002|Kitchen Printer Paper (30 rolls)|Consumable|39.0|45|20
+INK-001|Printer Ink Cartridge|Consumable|29.0|60|25
+CLN-002|Card Reader Cleaning Cards (25pk)|Consumable|22.0|55|25
