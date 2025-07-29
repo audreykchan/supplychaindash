@@ -8,7 +8,6 @@ conn.close()
 for i, col in enumerate(df.columns):
     print(f"{i}: '{col}'")
 
-# removes leading/trailing spaces
 df.columns = df.columns.str.strip().str.lower()
 print("Column names in the table: ")
 print(df.columns.tolist())

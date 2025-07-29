@@ -3,22 +3,18 @@ import pandas as pd
 import sqlite3
 import matplotlib.pyplot as plt
 
-# Load and clean
 conn = sqlite3.connect("products.db")
 df = pd.read_sql_query("SELECT * FROM products", conn)
 conn.close()
 
 df.columns = df.columns.str.strip().str.lower()
 
-# Search bar on side
 st.sidebar.header("Filter Inventory")
 search_term = st.sidebar.text_input("Search by Product Name")
 
-# Dropdown filter by category
 category_options = ["All"] + sorted(df["category"].unique())
 selected_category = st.sidebar.selectbox("Filter by Category", category_options)
 
-# Apply filters
 if search_term:
     df = df[df["product name"].str.lower().str.contains(search_term.lower())]
 
@@ -54,10 +50,9 @@ st.bar_chart(category_counts)
 st.header("Inventory Value by Category")
 value_by_category = df.groupby('category')['inventory value'].sum()
 
-# Plot pie chart
 fig, ax = plt.subplots()
 ax.pie(value_by_category, labels=value_by_category.index, autopct='%1.1f%%', startangle=90)
-ax.axis('equal')  # Equal aspect ratio = perfect circle
+ax.axis('equal')  
 st.pyplot(fig)
 
 st.header("Reorder Alerts")
